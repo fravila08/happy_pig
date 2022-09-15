@@ -1,0 +1,211 @@
+.App{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.homePage{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.msg{
+    width:60%;
+    background-color: grey;
+    border:solid 1vw goldenrod;
+    padding: 2vh 2vw;
+    border-radius: 2vw;
+}
+
+.navbar{
+    width: auto;
+    background-color: rgb(118, 118, 118);
+    display: inline;
+}
+
+.mealtype{
+    text-align: center;
+    background-color:rgb(37, 37, 37);
+    color: white;
+}
+
+.itemtease{
+    background-color: darkgrey;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 2vw;
+    padding: 2vh;
+    margin-top: 2vw;
+}
+.imgframe{
+    background-color: white;
+    padding: 5px;
+    border-radius: 1vw;
+    border: 2px solid rgb(37, 37, 37);
+}
+
+.indivItem{
+    margin-top: 2vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.foodCard{
+    background-color: darkgrey;
+    width: 40vw;
+    padding: 2vw;
+
+}
+
+.cartHolder{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cart{
+    background-color: darkgrey;
+    width: 90vw;
+    height: 60vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 2px white solid;
+    padding-bottom: 2vw;
+    border-radius: 2vw;
+}
+.cart::-webkit-scrollbar{
+    display: none;
+}
+
+.headers{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rowHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.theRow{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px white;
+    height: 10vh;
+    margin: 1vh;
+    border-radius: 2vw;
+    padding-top: 2vh;
+}
+
+button{
+    color: black;
+    background-color: transparent;
+    border: 0px transparent;
+}
+
+.editHolder{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.edit{
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30vh;
+}
+
+.signCont{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.signForm{
+    background-color: darkgrey;
+    border: white 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-height: 40vh;
+    border-radius: 2vw;
+}
+
+.textInput{
+    width: 80%;
+    border-radius: 1vw;
+}
+
+.subBtn{
+    width: 50%;
+    border-radius: 1vw;
+}
+
+.subBtn:hover{
+    background-color: greenyellow;
+}
+
+.info{
+    display: flex;
+}
+
+.myNav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.mylinks{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.mylinks:hover{
+    background-color: goldenrod;
+}
+
+.otherLinks{
+    display: flex;
+    padding: 5px 10px;
+    width: fit-content;
+    border: solid 2px goldenrod;
+    border-radius: 1vw;
+}
+
+#needsMargin{
+    margin-left: 1vw;
+}
+.imgInFrame{
+    height: 15vh; 
+}
+
+@media (max-width:790px) {
+    .msg{
+        width: 90%;
+    }
+    .signForm{
+        width:90%;
+        padding: 2vh 0;
+    }
+}
