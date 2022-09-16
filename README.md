@@ -22,7 +22,7 @@ Go to https://fathehappypig.com to see this project deployed.
 To run this project, you will need to add the following from the noun project into your 
 environment variables to your .env file
 
-**Your secret api keys for your both of your menu sections:**
+**Your secret API keys for your both of your menu sections:**
 
 
 `canadianrapidkey` 
