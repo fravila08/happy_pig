@@ -38,7 +38,7 @@ function Meals({meal}){
         <div className='indivItem'>
             {meal[0].id ?
             <div className='foodCard'>
-                <img src={meal[0].linkImagen} />
+                <img src={meal[0].linkImagen}  style={{width:"30vw", border:"black 1vw solid", borderRadius:"2vw"}}/>
                 <p>{meal[0].nombre}</p>
                 {meal[0].descripcion ? <p>{meal[0].descripcion}</p> : <p>no description available</p>}
                 <p>$5.00</p>
@@ -46,7 +46,7 @@ function Meals({meal}){
                 <input style={{width:"7vh"}} type="number" onChange={handleQuantity} />
                 <br/> 
                 <br/>
-                <textarea className='special_instructions' onChange={handleMessageChange}>Special Instructions</textarea>
+                <textarea className='special_instructions' onChange={handleMessageChange} placeholder="Special Instructions"></textarea>
                 <br/>
                 <button style={{textDecoration:"underline"}} onClick={()=>add_to_cart(meal[0])}>Add to Cart</button>
             </div>
@@ -60,7 +60,7 @@ function Meals({meal}){
                 <input style={{width:"7vh"}} type="number" value="1" onChange={handleQuantity} />
                 <br/>
                 <br/>
-                <textarea style={{width:"35vw", height:"30vh", borderRadius:"2vw", padding:"5px"}} className='special_instructions' onChange={handleMessageChange}>Special Instructions</textarea>
+                <textarea style={{width:"35vw", height:"30vh", borderRadius:"2vw", padding:"5px"}} className='special_instructions' onChange={handleMessageChange} placeholder="Special Instructions"></textarea>
                 <br/>
                 <button style={{textDecoration:"underline"}} onClick={()=>add_to_cart_meals(meal[0])}>Add to Cart</button>
             </div>}

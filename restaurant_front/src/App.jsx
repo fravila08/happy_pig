@@ -46,7 +46,7 @@ function App() {
         const keys= await axios.get("getKeys")
         setKeyone(keys.data["canadianrapidkey"])
         setKeyTwo(keys.data["pizzarapidkey"])
-        console.log(keys.data)
+        
         setShow(true)
     }
     
